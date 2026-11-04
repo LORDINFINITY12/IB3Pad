@@ -1,0 +1,7 @@
+*.dll
+*.o
+*.zip
+ib3pad.log
+ib3pad.state
+docs/controls/source/*.html
+!docs/controls/source/screens.html

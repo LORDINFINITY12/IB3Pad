@@ -1,0 +1,412 @@
+[
+ {
+  "file": "1-combat",
+  "name": "Combat",
+  "kicker": "Fights, finishing moves and boss battles<br><b>Heavy weapons:</b> X / A / B block left, centre, right<br><b>Dual blades:</b> X / A / B dodge left, centre, right",
+  "left": [
+   {
+    "keys": [
+     "LT"
+    ],
+    "anchor": "LT",
+    "title": "Super",
+    "sub": "Fire your super when the meter is full"
+   },
+   {
+    "keys": [
+     "LB"
+    ],
+    "anchor": "LB",
+    "title": "Click",
+    "sub": "Tap the screen where the cursor is"
+   },
+   {
+    "keys": [
+     "LS"
+    ],
+    "anchor": "LS",
+    "title": "Slash",
+    "sub": "Flick in any of 12 directions; swing to a new one to chain"
+   },
+   {
+    "keys": [
+     "L3"
+    ],
+    "anchor": "LS",
+    "title": "Boss info",
+    "sub": "Press the left stick"
+   }
+  ],
+  "right": [
+   {
+    "keys": [
+     "RT"
+    ],
+    "anchor": "RT",
+    "title": "Magic",
+    "sub": "Tap to open magic mode"
+   },
+   {
+    "keys": [
+     "RB"
+    ],
+    "anchor": "RB",
+    "title": "Sword clash",
+    "sub": "Mash during a clash"
+   },
+   {
+    "keys": [
+     "Y"
+    ],
+    "anchor": "Y",
+    "title": "Auto-stab",
+    "sub": "Also confirms popups"
+   },
+   {
+    "keys": [
+     "X"
+    ],
+    "anchor": "X",
+    "title": "Dodge left",
+    "sub": "Sword and shield"
+   },
+   {
+    "keys": [
+     "B"
+    ],
+    "anchor": "B",
+    "title": "Dodge right",
+    "sub": "Sword and shield"
+   },
+   {
+    "keys": [
+     "A"
+    ],
+    "anchor": "A",
+    "title": "Block",
+    "sub": "Raise the shield"
+   }
+  ],
+  "combos": [
+   {
+    "keys": [
+     "RT",
+     "X"
+    ],
+    "title": "Cast magic slot 1",
+    "sub": "Hold RT, press X"
+   },
+   {
+    "keys": [
+     "RT",
+     "Y"
+    ],
+    "title": "Cast magic slot 2",
+    "sub": "Hold RT, press Y"
+   },
+   {
+    "keys": [
+     "RT",
+     "B"
+    ],
+    "title": "Cast magic slot 3",
+    "sub": "Hold RT, press B"
+   },
+   {
+    "keys": [
+     "L3",
+     "R3"
+    ],
+    "title": "Quit prompt",
+    "sub": "Press both sticks together"
+   }
+  ],
+  "center": [
+   {
+    "keys": [
+     "BACK"
+    ],
+    "anchor": "BACK",
+    "title": "Fast-forward",
+    "sub": "Hold to speed up cutscenes",
+    "slot": "T0"
+   },
+   {
+    "keys": [
+     "DP"
+    ],
+    "anchor": "DP",
+    "title": "Straight slashes",
+    "sub": "Up, down, left, right",
+    "slot": "B0"
+   },
+   {
+    "keys": [
+     "START"
+    ],
+    "anchor": "START",
+    "title": "Pause",
+    "sub": "Pause the fight",
+    "slot": "T1"
+   },
+   {
+    "keys": [
+     "RS",
+     "R3"
+    ],
+    "anchor": "RS",
+    "title": "Cursor and click",
+    "sub": "Right stick moves the cursor; R3 clicks",
+    "slot": "B1"
+   }
+  ]
+ },
+ {
+  "file": "2-exploring",
+  "name": "Exploring",
+  "kicker": "Walking the world, picking paths, chests and pickups<br>The left stick never opens or moves any menu while you explore",
+  "left": [
+   {
+    "keys": [
+     "LB"
+    ],
+    "anchor": "LB",
+    "title": "Click",
+    "sub": "Hold and move the right stick to drag"
+   },
+   {
+    "keys": [
+     "LS"
+    ],
+    "anchor": "LS",
+    "title": "Swipe the view",
+    "sub": "Quick camera turn, like a touch swipe"
+   }
+  ],
+  "right": [
+   {
+    "keys": [
+     "Y"
+    ],
+    "anchor": "Y",
+    "title": "OK",
+    "sub": "Confirm the popup on screen"
+   },
+   {
+    "keys": [
+     "A"
+    ],
+    "anchor": "A",
+    "title": "Tap",
+    "sub": "Click where the cursor is: paths, chests, people"
+   }
+  ],
+  "combos": [
+   {
+    "keys": [
+     "LB",
+     "RS"
+    ],
+    "title": "Drag",
+    "sub": "Hold LB and move the right stick"
+   },
+   {
+    "keys": [
+     "L3",
+     "R3"
+    ],
+    "title": "Quit prompt",
+    "sub": "Press both sticks together"
+   },
+   {
+    "keys": [
+     "Y"
+    ],
+    "title": "Reward popups",
+    "sub": "Keep the plain controls; A taps, Y confirms"
+   }
+  ],
+  "center": [
+   {
+    "keys": [
+     "BACK"
+    ],
+    "anchor": "BACK",
+    "title": "Fast-forward",
+    "sub": "Hold to speed up cutscenes",
+    "slot": "T0"
+   },
+   {
+    "keys": [
+     "START"
+    ],
+    "anchor": "START",
+    "title": "Pause",
+    "sub": "OK / Yes on question popups",
+    "slot": "T1"
+   },
+   {
+    "keys": [
+     "RS"
+    ],
+    "anchor": "RS",
+    "title": "Look around",
+    "sub": "Moves the camera like a mouse",
+    "slot": "B1"
+   },
+   {
+    "keys": [
+     "R3"
+    ],
+    "anchor": "RS",
+    "slot": "B0",
+    "title": "Recentre camera",
+    "sub": "Press the right stick; the view glides back"
+   }
+  ]
+ },
+ {
+  "file": "3-menus",
+  "name": "Menus",
+  "kicker": "Hub, Items, Gem Bag, Supplies, Skills, Goals, Customize, Blacksmith, Cauldron, Fusion<br>A <b>gold outline</b> shows what A will press",
+  "left": [
+   {
+    "keys": [
+     "LT"
+    ],
+    "anchor": "LT",
+    "title": "Items list",
+    "sub": "On Items and the Gem Bag"
+   },
+   {
+    "keys": [
+     "LB"
+    ],
+    "anchor": "LB",
+    "title": "Previous tab",
+    "sub": "Or switch Siris / Isa"
+   },
+   {
+    "keys": [
+     "LS"
+    ],
+    "anchor": "LS",
+    "title": "Move the outline",
+    "sub": "Same as the D-pad on menu screens"
+   }
+  ],
+  "right": [
+   {
+    "keys": [
+     "RT"
+    ],
+    "anchor": "RT",
+    "title": "Gem Bag",
+    "sub": "On Items"
+   },
+   {
+    "keys": [
+     "RB"
+    ],
+    "anchor": "RB",
+    "title": "Next tab",
+    "sub": "Or switch Siris / Isa"
+   },
+   {
+    "keys": [
+     "Y"
+    ],
+    "anchor": "Y",
+    "title": "Screen action",
+    "sub": "Buy, sell, accept, cook, fuse, gear menu"
+   },
+   {
+    "keys": [
+     "X"
+    ],
+    "anchor": "X",
+    "title": "Snap",
+    "sub": "Jump the outline to the nearest button"
+   },
+   {
+    "keys": [
+     "B"
+    ],
+    "anchor": "B",
+    "title": "Back",
+    "sub": "One layer back, via the screen's own arrow"
+   },
+   {
+    "keys": [
+     "A"
+    ],
+    "anchor": "A",
+    "title": "Press",
+    "sub": "Click the outlined button"
+   }
+  ],
+  "combos": [
+   {
+    "keys": [
+     "LB",
+     "RS"
+    ],
+    "title": "Drag-scroll",
+    "sub": "Hold LB and move the right stick"
+   },
+   {
+    "keys": [
+     "X"
+    ],
+    "title": "Lost the outline?",
+    "sub": "X puts it back on the nearest button"
+   },
+   {
+    "keys": [
+     "B"
+    ],
+    "title": "Popups open on No",
+    "sub": "A stray press never spends anything"
+   }
+  ],
+  "center": [
+   {
+    "keys": [
+     "BACK"
+    ],
+    "anchor": "BACK",
+    "title": "Help",
+    "sub": "Opens the screen's ? page",
+    "slot": "T0"
+   },
+   {
+    "keys": [
+     "DP"
+    ],
+    "anchor": "DP",
+    "title": "Move the outline",
+    "sub": "Starts at the button under the cursor; hold to repeat; scrolls lists",
+    "slot": "B0"
+   },
+   {
+    "keys": [
+     "START"
+    ],
+    "anchor": "START",
+    "title": "Yes / OK",
+    "sub": "On popups; accepts skill points",
+    "slot": "T1"
+   },
+   {
+    "keys": [
+     "RS",
+     "R3"
+    ],
+    "anchor": "RS",
+    "title": "Free cursor",
+    "sub": "R3 is a click you can hold, e.g. to turn the model",
+    "slot": "B1"
+   }
+  ]
+ }
+]

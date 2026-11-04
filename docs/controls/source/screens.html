@@ -1,0 +1,66 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1600px;height:1100px;background:#101318;font-family:Inter,sans-serif;color:#e9edf5;position:relative;overflow:hidden}
+.bg{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 40%,#1d2330 0%,#101318 65%)}
+.head{position:absolute;left:40px;right:40px;top:34px;display:flex;align-items:flex-end;justify-content:space-between;border-bottom:2px solid #e6c35a55;padding-bottom:18px}
+h1{font-family:'Inter Display',Inter,sans-serif;font-weight:800;font-size:46px}h1 b{color:#e6c35a}
+.k{font-size:19px;color:#9aa3b5;text-align:right;line-height:1.35}.k b{color:#e6c35a}
+.grid{position:absolute;left:40px;right:40px;top:150px;bottom:40px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{background:#181c24ee;border:1px solid #2f3644;border-radius:14px;padding:14px 16px}
+.card h2{font-size:21px;font-weight:800;color:#e6c35a;margin-bottom:8px}
+.row{display:flex;gap:10px;align-items:flex-start;margin:6px 0;font-size:15.5px;line-height:1.3;color:#d5dbe6}
+.chips{display:flex;gap:3px;flex-shrink:0;width:66px}
+.c{min-width:28px;height:26px;border-radius:13px;display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-size:12.5px;padding:0 7px;background:#2b2f38;border:1px solid #ffffff22}
+.A{background:#3fae5a}.B{background:#d9473f}.X{background:#3b7bd8}.Y{background:#e5b52e;color:#1b1b1b}.T{background:#3a3f4b}
+.brand{position:absolute;right:40px;bottom:10px;font-size:12px;color:#5f6879}
+</style></head><body><div class="bg"></div>
+<div class="head"><h1>IB3Pad <b>Menu screens</b></h1><div class="k">What changes screen by screen<br>Everything else follows the <b>Menus</b> sheet</div></div>
+<div class="grid">
+ <div class="card"><h2>Hub (Siris / Isa)</h2>
+  <div class="row"><span class="chips"><span class="c">+</span></span>Move between Items, Supplies, Skills, Customize, Goals and the gear</div>
+  <div class="row"><span class="chips"><span class="c T">LB</span><span class="c T">RB</span></span>Switch Siris / Isa</div>
+  <div class="row"><span class="chips"><span class="c Y">Y</span></span>Open the gear menu</div></div>
+ <div class="card"><h2>Items</h2>
+  <div class="row"><span class="chips"><span class="c">+</span></span>Up / down scrolls items; left / right changes item type</div>
+  <div class="row"><span class="chips"><span class="c A">A</span></span>Buy or equip (the cursor waits on the button)</div>
+  <div class="row"><span class="chips"><span class="c T">LB</span><span class="c T">RB</span></span>ALL / INVENTORY / STORE</div>
+  <div class="row"><span class="chips"><span class="c T">LT</span><span class="c T">RT</span></span>Items / Gem Bag</div></div>
+ <div class="card"><h2>Gem Bag</h2>
+  <div class="row"><span class="chips"><span class="c">+</span></span>Move over the gem grid and the item's sockets</div>
+  <div class="row"><span class="chips"><span class="c A">A</span></span>Pick a gem up; A again drops it</div>
+  <div class="row"><span class="chips"><span class="c B">B</span></span>Put the held gem back</div>
+  <div class="row"><span class="chips"><span class="c Y">Y</span></span>Sell the gem &nbsp;&nbsp; <span class="c T">LT</span>&nbsp;back to items</div></div>
+ <div class="card"><h2>Supplies</h2>
+  <div class="row"><span class="chips"><span class="c">+</span></span>Scroll the list</div>
+  <div class="row"><span class="chips"><span class="c A">A</span></span>Use (or the single centred button on keys and ingredients)</div>
+  <div class="row"><span class="chips"><span class="c Y">Y</span></span>Buy</div></div>
+ <div class="card"><h2>Skills</h2>
+  <div class="row"><span class="chips"><span class="c">+</span></span>Up / down picks a stat row; left / right walks its skills</div>
+  <div class="row"><span class="chips"><span class="c Y">Y</span><span class="c">&#9776;</span></span>Accept the points</div>
+  <div class="row"><span class="chips"><span class="c B">B</span></span>Cancel the points &nbsp;&nbsp; <span class="c X">X</span>&nbsp;reset all</div>
+  <div class="row"><span class="chips"><span class="c T">LB</span><span class="c T">RB</span></span>Skills / Stats</div></div>
+ <div class="card"><h2>Goals</h2>
+  <div class="row"><span class="chips"><span class="c">+</span></span>Row to row, cursor on COLLECT; scrolls at the ends</div>
+  <div class="row"><span class="chips"><span class="c A">A</span></span>Collect</div></div>
+ <div class="card"><h2>Customize</h2>
+  <div class="row"><span class="chips"><span class="c">+</span></span>Side bar and its sub-menu rows, scrolling the sub-menu</div>
+  <div class="row"><span class="chips"><span class="c">R3</span></span>Hold and move the right stick to turn the model</div></div>
+ <div class="card"><h2>Blacksmith</h2>
+  <div class="row"><span class="chips"><span class="c">+</span></span>Up / down steps through items; left / right changes type</div>
+  <div class="row"><span class="chips"><span class="c A">A</span></span>UPGRADE (the cursor waits on it)</div>
+  <div class="row"><span class="chips"><span class="c T">LB</span><span class="c T">RB</span></span>Siris / Isa</div></div>
+ <div class="card"><h2>Cauldron and Fusion Chamber</h2>
+  <div class="row"><span class="chips"><span class="c A">A</span></span>Ingredient or gem goes straight into the next empty slot; A on a filled slot takes it out</div>
+  <div class="row"><span class="chips"><span class="c Y">Y</span></span>COOK / FUSE &nbsp;&nbsp; <span class="c X">X</span>&nbsp;cancel / take the last gem out</div></div>
+ <div class="card"><h2>Forge, brew and fusion progress</h2>
+  <div class="row"><span class="chips"><span class="c">+</span></span>Each slot row and its FINISH NOW; scrolls at the ends</div>
+  <div class="row"><span class="chips"><span class="c A">A</span></span>Press</div></div>
+ <div class="card"><h2>Popups and fight results</h2>
+  <div class="row"><span class="chips"><span class="c">+</span></span>Move the outline between the buttons</div>
+  <div class="row"><span class="chips"><span class="c">&#9776;</span></span>Yes / OK &nbsp;&nbsp; <span class="c B">B</span>&nbsp;No / back</div></div>
+ <div class="card"><h2>Gear menu</h2>
+  <div class="row"><span class="chips"><span class="c">+</span></span>Move through the options</div>
+  <div class="row"><span class="chips"><span class="c A">A</span></span>Press &nbsp;&nbsp; <span class="c B">B</span>&nbsp;close</div></div>
+</div>
+<div class="brand">IB3Pad 0.6 controller support for the Infinity Blade III PC port</div>
+</body></html>
